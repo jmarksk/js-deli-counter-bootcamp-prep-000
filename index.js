@@ -12,10 +12,10 @@ function nowServing(line) {
   }
 }
 
-function takeANumber(line){
+function takeANumber(){
   let num = 0
   num ++
-  line.push(num);
+  array.push(num);
 
   console.log("Welcome, you are number " + num);
 
@@ -23,9 +23,9 @@ function takeANumber(line){
 }
 
 let array = []
-takeANumber(array)
-takeANumber(array)
-takeANumber(array)
+takeANumber()
+takeANumber()
+takeANumber()
 
 function currentLine(line){
   if(!line.length) {
