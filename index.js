@@ -36,3 +36,4 @@ function currentLine(line){
 }
 let array = ["Alex", "Uther"]
 console.log(currentLine(array))
+console.log(currentLine(array))
