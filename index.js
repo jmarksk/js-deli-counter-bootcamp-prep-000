@@ -17,9 +17,9 @@ function takeANumber(line){
   num ++
   line.push(num);
 
-  console.log("Welcome, you are number " + (num);
+  console.log("Welcome, you are number " + num);
 
-  return "Welcome, you are number " + (num)
+  return "Welcome, you are number " + num
 }
 
 let array = []
