@@ -36,6 +36,7 @@ function currentLine(line){
   // console.log("The line is currently: " + lineNamesandNumbers)
   return "The line is currently: " + lineNamesandNumbers.join(', ');
 }
-let array = ["Alex", "Uther"]
-console.log(currentLine(array))
-console.log(currentLine(array))
+let array = []
+takeANumber(array)
+takeANumber(array)
+takeANumber(array)
