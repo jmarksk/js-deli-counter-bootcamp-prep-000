@@ -14,7 +14,7 @@ function nowServing(line) {
 
 let num = 0
 function takeANumber(){
-  
+
   num ++
   array.push(num);
 
