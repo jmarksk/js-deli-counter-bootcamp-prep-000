@@ -12,8 +12,9 @@ function nowServing(line) {
   }
 }
 
+let num = 0
 function takeANumber(){
-  let num = num
+  
   num ++
   array.push(num);
 
