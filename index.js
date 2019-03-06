@@ -18,7 +18,6 @@ function takeANumber(){
   array.push(num);
 
   console.log("Welcome, you are number " + num);
-
   return "Welcome, you are number " + num
 }
 
@@ -26,6 +25,7 @@ let array = []
 takeANumber()
 takeANumber()
 takeANumber()
+console.log(array)
 
 function currentLine(line){
   if(!line.length) {
