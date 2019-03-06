@@ -20,8 +20,12 @@ function takeANumber(line){
   console.log("Welcome, you are number " + (num);
 
   return "Welcome, you are number " + (num)
+}
 
-
+let array = []
+takeANumber(array)
+takeANumber(array)
+takeANumber(array)
 
 function currentLine(line){
   if(!line.length) {
@@ -36,7 +40,4 @@ function currentLine(line){
   // console.log("The line is currently: " + lineNamesandNumbers)
   return "The line is currently: " + lineNamesandNumbers.join(', ');
 }
-let array = []
-takeANumber(array)
-takeANumber(array)
-takeANumber(array)
+
