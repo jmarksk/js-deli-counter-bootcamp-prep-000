@@ -12,13 +12,14 @@ function nowServing(line) {
   }
 }
 
-function takeANumber(line, name){
-  line.push(name);
+function takeANumber(line){
+  let num = 0
+  num ++
+  line.push(num);
 
-  console.log("Welcome, " + name + ". You are number " + line.length + " in line.");
+  console.log("Welcome, you are number " + (num);
 
-  return "Welcome, " + name + ". You are number " + line.length + " in line."
-}
+  return "Welcome, you are number " + (num)
 
 
 
@@ -26,7 +27,7 @@ function currentLine(line){
   if(!line.length) {
     return "The line is currently empty.";
   }
-
+  
   var lineNamesandNumbers = [];
 
   for(var i=0; i<line.length; i++) {
